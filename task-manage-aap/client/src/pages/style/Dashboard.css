@@ -1,0 +1,95 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dashboard-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .create-link {
+    display: inline-block;
+    background-color: #4a90e2;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 auto 2rem auto;
+    transition: background-color 0.3s ease;
+    display: block;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  
+  .create-link:hover {
+    background-color: #357ab8;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .task-list li:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .task-list strong {
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .task-list span {
+    display: block;
+    margin-top: 0.4rem;
+    color: #666;
+    font-size: 0.95rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .dashboard-container {
+      padding: 1rem;
+      margin: 1rem;
+    }
+  
+    .dashboard-container h2 {
+      font-size: 1.6rem;
+    }
+  
+    .create-link {
+      padding: 0.6rem 1rem;
+      font-size: 0.95rem;
+    }
+  
+    .task-list strong {
+      font-size: 1.05rem;
+    }
+  
+    .task-list span {
+      font-size: 0.9rem;
+    }
+  }
+  

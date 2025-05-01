@@ -1,0 +1,88 @@
+/* Signup.css */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .signup-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+    font-size: 1.75rem;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .signup-form input:focus {
+    border-color: #fcb69f;
+    outline: none;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #fcb69f;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-form button:hover {
+    background-color: #f89c83;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .signup-form {
+      padding: 1.5rem;
+    }
+  
+    .signup-form h2 {
+      font-size: 1.5rem;
+    }
+  
+    .signup-form input,
+    .signup-form button {
+      font-size: 0.95rem;
+      padding: 0.65rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .signup-form {
+      padding: 2.5rem;
+    }
+  
+    .signup-form h2 {
+      font-size: 2rem;
+    }
+  }
+  

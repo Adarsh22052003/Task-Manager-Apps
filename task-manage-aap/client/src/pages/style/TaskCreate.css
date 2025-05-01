@@ -1,0 +1,106 @@
+.task-create-form {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-create-form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .task-input,
+  .task-textarea {
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .task-textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .task-submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-submit-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .task-create-form {
+      padding: 1.2rem;
+      margin: 1rem;
+    }
+  
+    .task-create-form h2 {
+      font-size: 1.5rem;
+    }
+  
+    .task-input,
+    .task-textarea {
+      font-size: 0.95rem;
+    }
+  
+    .task-submit-btn {
+      font-size: 0.95rem;
+    }
+  }
+  
+  .task-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .task-cancel-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-cancel-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Responsive button layout */
+  @media (max-width: 500px) {
+    .task-buttons {
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+  
+    .task-submit-btn,
+    .task-cancel-btn {
+      width: 100%;
+    }
+  }
+  
